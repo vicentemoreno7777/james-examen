@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.fila {
+    display: flex;
+}
+
+.columna {
+    flex: 1;
+    padding: 12px;
+}
+
+.tarjeta-info h2 {
+    font-size: 32px;
+    margin-left: 18px;
+    color: #ffffff;
+}
+
+.tarjeta-info p {
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.fondo-azul {
+    background-color: #1d9eec;
+    margin: 12px;
+}
+
+.boton-info {
+    background-color: #58a6ff;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    margin-top: 27px;
+}
+
+.mensaje-mundo {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.imagen-edificio {
+    width: 100%;
+    margin-top: 18px;
+}
+
+.alineada p {
+    font-size: 14px;
+    margin: 15px;
+}
+
+.alineada a {
+    text-decoration: none;
+    margin: 15px;
+}
+
+.titulo-testimonio {
+    font-size: 22px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.fondo-testimonio {
+    padding: 32px;
+    background-color: #e0f4ff;
+}
+
+.texto-testimonio {
+    color: #333;
+}
+
+.autor-testimonio {
+    margin-top: 12px;
+}
+
+.fondo {
+    background-color: #007dc0;
+}
+
+.fondo a {
+    text-decoration: none;
+    color: #7f9ac5;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.fondo span {
+    color: #87ceeb;
+}
+
+.navegacion {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: #4296af;
+}
+
+.navegacion span {
+    color: #1a89ff;
+}
+
+.navegacion h1 {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.imagen-principal {
+    width: 100%;
+    padding: 12px;
+}
+
+.icono-servicio {
+    width: 36px;
+}
+
+footer {
+    width: 900px;
+    height: 40px;
+    margin-top: 12px;
+}
